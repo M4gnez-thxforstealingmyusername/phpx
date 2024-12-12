@@ -41,7 +41,7 @@ public class PHPXInterpreter {
                         writer.write("<?php\n");
                         continue;
                     }
-                    case "/}" -> {
+                    case "?}" -> {
                         writer.write("?>\n");
                         continue;
                     }
